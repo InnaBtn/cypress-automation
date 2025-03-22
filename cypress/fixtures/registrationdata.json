@@ -1,0 +1,97 @@
+{
+    "nameTests": [
+      {
+        "testName": "Invalid Name",
+        "username": "22222"
+      },
+      {
+        "testName": "Name shorter than 2 symbols",
+        "username": "J"
+      },
+      {
+        "testName": "Name longer than 20 symbols",
+        "username": "Wallysкmithjohnsonslat"
+      },
+      {
+        "testName": "Vlid name with spaces in the beginning, in the middle and in the end and 20 symbols except them",
+        "username": " WallysMithjohnsonsla "
+      },
+      {
+        "testName": "Valid name",
+        "username": "John"
+      }
+    ],
+  
+    "lastNameTests": [
+      {
+        "testName": "Invalid Last Name",
+        "lastName": "333333"
+      },
+      {
+        "testName": "Last name shorter than 2 symbols",
+        "lastName": "S"
+      },
+      {
+        "testName": "Last name longer than 20 symbols",
+        "lastName": "Sloyrestwordscartertr"
+      },
+      {
+        "testName": "Last name with spaces in the beginning and in the end and 20 symbols except them",
+        "lastName": " Wallysm Lordscarterte "
+      },
+      {
+        "testName": "Valid last name",
+        "lastName": "Sloy"
+      }
+    ],
+  
+    "emailTests": [
+      {
+        "testName": "Incorrect Email Format",
+        "email": "testemail.com"
+      },
+      {
+        "testName": "Valid Email",
+        "email": "uniqueEmail"
+      }
+    ],
+  
+    "passwordTests": [
+      {
+        "testName": "Password shorter than 8 symbols",
+        "password": "Qwerty1"
+      },
+      {
+        "testName": "Password longer than 15 symbols",
+        "password": "Qwerty1234567890"
+      },
+      {
+        "testName": "Password without an integer symbol",
+        "password": "Qwertyqqqq"
+      },
+      {
+        "testName": "Password without a capital letter",
+        "password": "qwerty123"
+      },
+      {
+        "testName": "Password without a small letter",
+        "password": "QWERTY123"
+      },
+      {
+        "testName": "Valid password",
+        "password": "Qwerty123"
+      }
+    ],
+  
+    "repeatPasswordTests": [
+      {
+        "testName": "Not matching Password",
+        "repeatPassword": "Qwerty1234567"
+      },
+      {
+        "testName": "Valid matching password",
+        "repeatPassword": "Qwerty123"
+      }
+    ]
+  }
+  
