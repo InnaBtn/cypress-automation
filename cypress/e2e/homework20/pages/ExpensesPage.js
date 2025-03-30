@@ -95,6 +95,10 @@ class ExpensesPage {
     selectInvalidYesterdayDate() {
         cy.get('ngb-datepicker').contains('div.ngb-dp-day', yesterdayday).click();
     }
+    selectPorschPananmeraDropdown() {
+        cy.get('#carSelectDropdown').should('be.visible').contains('Porsche Panamera')
+        .click();
+    }
 
 
 
@@ -138,7 +142,9 @@ class ExpensesPage {
     }
     clickRemoveExpensesButton() {
         cy.get('button.btn-danger').click();
-
+    }
+    clickExpensesPanelOption() {
+        cy.get('a.btn.btn-white.btn-sidebar.sidebar_btn[href="/panel/expenses"]').click();
     }
 
 
